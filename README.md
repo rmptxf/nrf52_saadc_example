@@ -1,12 +1,12 @@
 A simplified version of the saadc example in the nrf5 SDK.
 In this example the Saadc is set to sample 10 times at 100 ms each, with 14bit as a resolution.
 
-### The Voltage can be read using this equation :
+### The Analog voltage can be read using this equation :
 
 RESULT = [V(P) – V(N) ] x GAIN / REFERENCE x 2(RESOLUTION - m)
 (m=0) if CONFIG.MODE=SE, or (m=1) if CONFIG.MODE=Diff.
 
-[**Source**](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52840%2Fsaadc.html&cp=4_0_0_5_22_2&anchor=saadc_digital_output).
+[**Source**](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52840%2Fsaadc.html&cp=4_0_0_5_22_2&anchor=saadc_digital_output)
 
 ### nRF5_SDK version supported :
 Versions starting from **v15.3**.
