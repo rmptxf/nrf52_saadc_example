@@ -37,7 +37,11 @@
  * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-
+/*
+   Author : Abdelali Boussetta @rmptxf
+   Description : This saadc example uses one channel (AIN1 (P0.3)), samples at 100ms (10 samples) =  get result each (1 second).
+   It uses 14Bit as a resolution.
+*/
 
 #include <stdbool.h>
 #include <stdint.h>
