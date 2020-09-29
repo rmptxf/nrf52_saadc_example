@@ -3,7 +3,7 @@ In this example the Saadc is set to sample 10 times at 100 ms each, with 14bit a
 
 ### The Analog voltage can be read using this equation :
 
-RESULT = [V(P) – V(N) ] x GAIN / REFERENCE x 2(RESOLUTION - m)
+RESULT = [V(P) – V(N) ] x GAIN / REFERENCE x 2^(RESOLUTION - m)
 >(m=0) if CONFIG.MODE=SE, or (m=1) if CONFIG.MODE=Diff.
 
 [**Source**](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52840%2Fsaadc.html&cp=4_0_0_5_22_2&anchor=saadc_digital_output)
